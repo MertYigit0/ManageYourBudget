@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         FloatingActionButton fab = binding.fab;
 
-        /*Can git test*/
+        /*Can git test2*/
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
