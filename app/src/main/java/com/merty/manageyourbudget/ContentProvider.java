@@ -48,11 +48,7 @@ public class ContentProvider  extends android.content.ContentProvider {
 
         }
     }
-
-
-
-
-
+//1
 
     @Override
     public boolean onCreate() {
@@ -62,7 +58,6 @@ public class ContentProvider  extends android.content.ContentProvider {
 
         return sqLiteDatabase != null;
     }
-
     @Nullable
     @Override
     public Cursor query(@NonNull Uri uri, @Nullable String[] strings, @Nullable String s, @Nullable String[] strings1, @Nullable String s1) {
